@@ -17,7 +17,7 @@ st.set_page_config(
     initial_sidebar_state="auto",
     menu_items={
         "Get Help": "https://developers.snowflake.com",
-        "About": "The Application is built by Snowflake Data Superhero - [Divyansh Saxena](https://www.linkedin.com/in/divyanshsaxena/) . The source code for this application can be accessed on [GitHub](https://github.com/divyanshsaxena11/sfguide-snowpark-streamlit-snowflake-healthcheck) ",
+        "About": "The Application is built to check snowflake health checkup",
     },
 )
 
@@ -32,7 +32,7 @@ with st.sidebar:
     SF_ACCOUNT = st.text_input(
         "Enter Your Snowflake Account [<account_details>.snowflakecomputing.com] :"
     )
-    SF_USR = st.text_input("Snowflake USER ( Divyansh ):")
+    SF_USR = st.text_input("Snowflake USER ( Amit ):")
     SF_PWD = st.text_input("Snowflake password:", type="password")
     conn = {"ACCOUNT": SF_ACCOUNT, "USER": SF_USR, "PASSWORD": SF_PWD}
 
@@ -60,7 +60,7 @@ with st.container():
             "banner.jpg",
         )
         st.image(
-            image, caption="Community App Build By Data Superhero - Divyansh Saxena"
+            image, caption="Snowflake App Build By Infra-Snowflake"
         )
         st.header(
             "Get better understanding of Snowflake's Resource Optimization and Performance capabilities on :red[Streamlit]"
