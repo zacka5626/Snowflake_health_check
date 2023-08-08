@@ -57,7 +57,7 @@ with st.container():
     if session != "":
         st.title("Snowflake Health Check")
         image = Image.open(
-            "banner.jpg",
+            "download.png",
         )
         st.image(
             image, caption="Snowflake App Build By Infra-Snowflake"
