@@ -1,4 +1,4 @@
-snowflake-connector-python 2.2.8
+snowflake-connector-python==2.2.8
 snowflake-snowpark-python
 plotly==5.14.1
 pyarrow==10.0.1
